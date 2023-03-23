@@ -1,2 +1,10 @@
+@import './base/theme';
 @import './base/components';
 @import './base/_container.scss';
+
+@import './layout/header';
+@import './layout/about';
+@import './layout/education';
+@import './layout/project';
+@import './components/project-cards';
+@import './components/project-ice';

@@ -1,0 +1,31 @@
+.header__cont {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-color: black;
+    height: 60px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: rgb(44, 44, 44);
+}
+.header__logo-link {
+    text-decoration: none;
+}
+.header__logo{
+    font-weight: 100px;
+    text-decoration: none;
+    // color: aliceblue;
+}
+
+.header__nav{
+    
+}
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    padding-left: 500px
+}

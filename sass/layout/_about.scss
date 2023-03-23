@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    align-items: center;
+    // background: rgb(44, 44, 44);
+    border: 1px solid;
+    border-color: black;
+    height: 500px;
+
+    // color: black;
+}
+.about__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about__title-sub {
+    // color: aliceblue;
+    // display: flex;
+    // align-items: center;
+}
