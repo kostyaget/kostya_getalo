@@ -154,6 +154,7 @@
     position: relative;
     filter: blur(15px);
     animation: floating 2600ms infinite linear;
+    z-index: 2;
   }
   
   .bottom {
@@ -163,6 +164,7 @@
     width: 400px;
     height: 400px;
     animation-delay: -800ms;
+    z-index: 2;
   }
   
   .right {
@@ -172,6 +174,12 @@
     width: 200px;
     height: 200px;
     animation-delay: -1800ms;
+    z-index: 2;
+}
+
+.img-bg{
+  z-index: 1;
+  
 }
 //IceCream Shop
 .c-ice {
