@@ -3,29 +3,42 @@
     align-items: center;
     border: 1px solid;
     border-color: black;
+    background-color: #212121;
     height: 60px;
 
 }
 .header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    
     // background-color: rgb(44, 44, 44);
 }
 .header__logo-link {
     text-decoration: none;
 }
 .header__logo{
-    font-weight: 100px;
-    text-decoration: none;
+    padding-left: 20px;
+    // display: flex;
     // color: aliceblue;
 }
 
 .header__nav{
+    display: flex;
+    // justify-content: space-around;
+    // margin-left: 200px;
+    width: 100%;
     
 }
 .header__nav-list {
     display: flex;
-    align-items: center;
-    padding-left: 500px
+    justify-content: center;
+    width: 100%;
+    // align-items: center;
+    // justify-content: space-around
+    // padding-left: 500px
+}
+.header__nav-list li {
+   margin-left: 20px;
 }

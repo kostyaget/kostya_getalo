@@ -1,10 +1,16 @@
 @import './base/theme';
 @import './base/components';
 @import './base/_container.scss';
+@import './base/fonts';
+@import './untils/variables';
+@import './components/header-btn';
+@import './components/header-logo';
+@import './components/header-search';
 
 @import './layout/header';
 @import './layout/about';
 @import './layout/education';
 @import './layout/project';
 @import './components/project-cards';
+@import './components/project-web';
 @import './components/project-ice';

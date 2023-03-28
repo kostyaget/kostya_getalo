@@ -1,6 +1,8 @@
 .loader {
     height: 150px;
     width: 100px;
+    margin-top: 10px;
+    margin-bottom: 55px;
     border-radius: 55px 55px 10px 10px;
     position: relative;
     background: #FF3D00;
@@ -49,3 +51,71 @@
     }
   }
   
+  .logo-ice{
+    display: flex;
+    flex-direction: column;
+    color: #d41443;   
+    font-family: $iceFont  ;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 30px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+  
+  }
+  .badge-ice p {
+      color: #d41443;
+      font-family: $iceFont  ;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 30px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+
+      
+  }
+  .title-ice{
+    font-family: $iceFontTitle  ;
+  }
+  .front-ice{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 372px;
+    background-color: #ff97ae;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img//hero-girl-tab@3x.png);
+
+  }
+  .c-ice {
+    background-color: #fffb00;
+    left: -17px;
+    top: -25px;
+    filter: blur(57px);
+    }
+  
+    .r-ice {
+      background-color: #f63a99;
+      left: 220px;
+      top: -166px;
+      filter: blur(70px);
+    }
+    
+    .b-ice {
+      background-color: #833ab4;
+      left: 121px;
+      top: 0px;
+      filter: blur(97px);
+    }
+    
+    @keyframes floating {
+      0% {
+        transform: translateY(0px);
+      }
+    
+      50% {
+        transform: translateY(10px);
+      }
+    
+      100% {
+        transform: translateY(0px);
+      }
+    }

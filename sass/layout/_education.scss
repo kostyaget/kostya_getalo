@@ -2,22 +2,40 @@
    
     border: 1px solid;
     border-color: black;
-    height: 100px;
+    // height: 100px;
 }
 .education {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .education-univer {
+    font-family: $webFont;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    
 }
-.education-univer__link {
-}
-.education-univer__title {
+
+.education-univer-kimy{
+    width: 40px;
+    height: 45px;
 }
 .education-cours {
+    font-family: $webFont;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.education-cours__link {
+.education__link {
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
 }
-.education-cours__title {
+.education__title {
+    padding-left: 20px;
+    
 }

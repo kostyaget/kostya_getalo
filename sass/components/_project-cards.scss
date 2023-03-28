@@ -37,9 +37,9 @@
     position: absolute;
     content: ' ';
     display: block;
-    width: 160px;
+    width: 550px;
     height: 160%;
-    background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
+    background: linear-gradient(90deg, transparent, #30dcf6, rgb(253 29 29), #f2d200, rgb(131 58 180), transparent);
     animation: rotation_481 5000ms infinite linear;
   }
   
@@ -47,7 +47,8 @@
     position: absolute;
     width: 99%;
     height: 99%;
-    background-color: #151515;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     border-radius: 5px;
     color: white;
     display: flex;
@@ -59,6 +60,11 @@
   .project__card-back-logo{
     font-weight: bold;
     font-size: 25px;
+    padding: 2px 10px;
+    box-shadow: 0px 0px 10px 5px #00000088;
+    background-color: rgba(0,0,0,.5333333333);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
 
     display: flex;
     align-items: center;
@@ -96,19 +102,14 @@
   
   .front-content .badge {
     background-color: #00000088;
+    text-decoration: none;
     font-weight: bold;
-    padding: 2px 10px;
+    padding: 6px 10px;
     border-radius: 10px;
     backdrop-filter: blur(2px);
     width: fit-content;
   }
-  .web{
-    color: #2196f3;
-
-  }
-  .sty{
-    color: white;
-  }
+  
   
   .description {
     box-shadow: 0px 0px 10px 5px #00000088;
@@ -122,6 +123,7 @@
   }
   
   .title {
+    font-family: $mainFont;
     font-size: 18px;
     max-width: 100%;
     display: flex;
@@ -152,9 +154,9 @@
     border-radius: 50%;
     background-color: #ffbb66;
     position: relative;
-    filter: blur(15px);
+    filter: blur(87px);
     animation: floating 2600ms infinite linear;
-    z-index: 2;
+    // z-index: 2;
   }
   
   .bottom {
@@ -164,7 +166,7 @@
     width: 400px;
     height: 400px;
     animation-delay: -800ms;
-    z-index: 2;
+    // z-index: 2;
   }
   
   .right {
@@ -174,36 +176,8 @@
     width: 200px;
     height: 200px;
     animation-delay: -1800ms;
-    z-index: 2;
+    // z-index: 2;
 }
 
-.img-bg{
-  z-index: 1;
-  
-}
+
 //IceCream Shop
-.c-ice {
-    background-color: #f0d1a5;
-  }
-
-  .r-ice {
-    background-color: #d41443;
-  }
-  
-  .b-ice {
-    background-color: #ffa5ba;
-  }
-  
-  @keyframes floating {
-    0% {
-      transform: translateY(0px);
-    }
-  
-    50% {
-      transform: translateY(10px);
-    }
-  
-    100% {
-      transform: translateY(0px);
-    }
-  }
