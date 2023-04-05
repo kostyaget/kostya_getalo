@@ -1,9 +1,11 @@
 .header__cont {
+    // position: fixed;
+    // padding-top: 60px;
     display: flex;
     align-items: center;
-    border: 1px solid;
-    border-color: black;
-    background-color: #212121;
+    // border: 1px solid;
+    // border-color: black;
+    // background-color: #212121;
     height: 60px;
 
 }
@@ -12,6 +14,7 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    font-family: $headerFont;
     
     // background-color: rgb(44, 44, 44);
 }
@@ -20,9 +23,18 @@
 }
 .header__logo{
     padding-left: 20px;
+    width: 50%;
     // display: flex;
     // color: aliceblue;
 }
+.header__logo-myName{
+    color:white ;
+}
+.header__logo-hide {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
 
 .header__nav{
     display: flex;

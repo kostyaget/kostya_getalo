@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kostyaget/Kostya_Getalo/issues"
   },
-  "homepage": "https://github.com/kostyaget/Kostya_Getalo#readme"
+  "homepage": "https://github.com/kostyaget/Kostya_Getalo#readme",
+  "dependencies": {
+    "compass": "^0.1.1"
+  }
 }
