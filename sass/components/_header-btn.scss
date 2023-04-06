@@ -80,6 +80,11 @@ button {
     z-index: 0;
     border-radius: 32px;
   }
+  .header__nav-btn a {
+    text-decoration: none;
+    
+    color: #FFF;
+  }
   
   .header__nav-btn::after {
     content: "";

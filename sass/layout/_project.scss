@@ -1,20 +1,17 @@
 .project {
-    height: 100vh; /* set the height to the viewport height */
+    height: 150vh; /* set the height to the viewport height */
     width: 100%;
     background-color: #9a02ff10;
 
     display: flex;
-    // align-items: center;
     justify-content: center;
 }
 .project__list{
-    // padding-top: 50%;
+    height: 100vh;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.container {
-}
-.project__cards {
-}
+
