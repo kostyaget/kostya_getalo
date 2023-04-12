@@ -9,7 +9,6 @@
 //     }
 //   });
 // });
-import '../sass/main.scss';
 
 
 const anchors = document.querySelectorAll('a[href*="#"]')
