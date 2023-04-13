@@ -1,49 +1,41 @@
-<section class="section-swiper ">
-  <swiper-container class="mySwiper" speed="1500"initialSlide="1" effect="coverflow" grab-cursor="true" centered-slides="true"
+<section id="project" class="section-swiper ">
+  <swiper-container class="mySwiper" initialSlide="0" speed="1500"  effect="coverflow" grab-cursor="true" centered-slides="true"
   slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="200"
   coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
-    <!-- <swiper-slide>
-      <div><a href="">site</a></div>
-    </swiper-slide> -->
     <swiper-slide>
-      <div class="slider-card">
-        <img src="./img/blum.jpg" />
-        <p>BLUM</p>
-      </div>
-      
-    </swiper-slide>
-    <swiper-slide>
-      <div class="slider-card web">
-        <img src="./img/web.jpg" />
-        <div>
-          <p class="web">Web</p> <p class="sty">Studio</p>
+      <a class="slide-link" href="./partials/blum.html">
+        <div class="slider-card">
+          <img src="./img/blum.jpg" />
+          <p>BLUM</p>
         </div>
-      </div>
+      </a>
     </swiper-slide>
     <swiper-slide>
-      <div class="slider-card ice">
-        <img src="./img/ice.jpg" />
-        <p>icecream</p>
-      </div>
+      <a class="slide-link" href="./partials/webstudion.html">
+        <div class="slider-card web">
+          <img src="./img/web.jpg" />
+          <div>
+            <p class="web">Web</p> <p class="sty">Studio</p>
+          </div>
+        </div>
+      </a>
     </swiper-slide>
     <swiper-slide>
-      <div class="slider-card">
-        <img src="./img/reader.jpg" />
-        <p>Books Reader</p>
-      </div>
-    </swiper-slide>
-    <!-- <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+      <a class="slide-link" href="./partials/icecream.html">
+        <div class="slider-card ice">
+          <img src="./img/ice.jpg" />
+          <p>icecream</p>
+        </div>
+      </a>
     </swiper-slide>
     <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+      <a class="slide-link" href="./partials/reader.html">
+        <div class="slider-card reader">
+          <img src="./img/reader.jpg" />
+          <p>Books Reader</p>
+        </div>
+      </a>
     </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-    </swiper-slide> -->
   </swiper-container>
   <script>
     var swiper = new Swiper(".mySwiper", {
