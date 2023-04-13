@@ -1188,7 +1188,7 @@ button:active {
 }
 
 .about {
-  height: 150vh; /* set the height to the viewport height */
+  height: 100vh; /* set the height to the viewport height */
   display: flex;
   justify-content: flex-start;
   position: relative;
@@ -1277,4 +1277,73 @@ button:active {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.section-swiper {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  height: 100vh;
+}
+
+.slider-card {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #F15A24;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-card p {
+  padding-top: 2px;
+}
+
+.slider-card div {
+  display: flex;
+  align-items: center;
+}
+
+.ice {
+  color: #d41443;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.web {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 0.83;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.sty {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 0.7;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+swiper-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  max-width: 700px;
+}
+
+swiper-slide img {
+  border-radius: 10px;
+  width: 700px;
 }/*# sourceMappingURL=main.css.map */

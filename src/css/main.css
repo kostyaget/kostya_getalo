@@ -1277,4 +1277,31 @@ button:active {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.section-swiper {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.mySwiper {
+  width: 500px;
+}
+
+swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 150px;
+}
+
+swiper-slide img {
+  width: 500px;
 }/*# sourceMappingURL=main.css.map */
