@@ -1,9 +1,9 @@
 <section id="project" class="section-swiper ">
-  <swiper-container class="mySwiper" initialSlide="0" speed="1500"  effect="coverflow" grab-cursor="true" centered-slides="true"
+  <swiper-container class="mySwiper" initialSlide="1" speed="1500"  effect="coverflow" grab-cursor="true" centered-slides="true"
   slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="200"
   coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
-    <swiper-slide>
-      <a class="slide-link" href="./partials/blum.html">
+    <swiper-slide class="swiper-slide">
+      <a class="slide-link" href="./pages/blum.html">
         <div class="slider-card">
           <img src="./img/blum.jpg" />
           <p>BLUM</p>
@@ -11,7 +11,7 @@
       </a>
     </swiper-slide>
     <swiper-slide>
-      <a class="slide-link" href="./partials/webstudion.html">
+      <a class="slide-link" href="./pages/webstudion.html">
         <div class="slider-card web">
           <img src="./img/web.jpg" />
           <div>
@@ -21,7 +21,7 @@
       </a>
     </swiper-slide>
     <swiper-slide>
-      <a class="slide-link" href="./partials/icecream.html">
+      <a class="slide-link" href="./pages/icecream.html">
         <div class="slider-card ice">
           <img src="./img/ice.jpg" />
           <p>icecream</p>
@@ -29,7 +29,7 @@
       </a>
     </swiper-slide>
     <swiper-slide>
-      <a class="slide-link" href="./partials/reader.html">
+      <a class="slide-link" href="./pages/reader.html">
         <div class="slider-card reader">
           <img src="./img/reader.jpg" />
           <p>Books Reader</p>
@@ -38,8 +38,23 @@
     </swiper-slide>
   </swiper-container>
   <script>
-    var swiper = new Swiper(".mySwiper", {
-  initialSlide: 2,
-});
+    const swiper = new Swiper('.mySwiper', {
+      // initialSlide: 2,
+      initialSlide:1,
+      speed:1500,
+      effect:coverflow,
+      grabCursor:true,
+      centeredSlides:true,
+      slidesPerView:auto, 
+      coverflowEffectRotate:50,
+      coverflowEffectStretch:0,
+      coverflowEffectDepth:200,
+      coverflowEffectModifier:1,
+      coverflowEffectSlideShadows:false,
+      mouseWheel: {
+        sensitivity:1,
+        eventsTarget: '.mySwiper'
+    }
+    });
   </script>
 </section>

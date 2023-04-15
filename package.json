@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kostyaget/Kostya_Getalo#readme",
   "dependencies": {
+    "jquery": "^3.6.4",
     "modern-normalize": "^1.1.0",
     "swiper": "^9.2.0"
   },

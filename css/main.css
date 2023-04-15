@@ -5,6 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+html, body {
+  height: 100%;
+}
+
 body {
   background: radial-gradient(#222, #222);
   overflow-x: hidden;
