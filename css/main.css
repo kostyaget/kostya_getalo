@@ -1326,4 +1326,32 @@ swiper-slide {
 swiper-slide img {
   border-radius: 10px;
   width: 700px;
+}
+
+.image-site {
+  width: 800px;
+}
+
+about-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+text-site {
+  margin-top: 20px;
+  color: white;
+}
+
+.technologies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.technologies p {
+  font-family: "Roboto", sans-serif;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
