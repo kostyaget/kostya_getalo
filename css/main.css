@@ -65,6 +65,15 @@ img {
   margin: 0 auto;
 }
 
+.bg-cont {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+
 .light {
   position: absolute;
   width: 0px;
@@ -586,8 +595,8 @@ button {
   position: relative;
   padding: 1em 1.8em;
   outline: none;
-  border: 1px solid #212121;
-  background: #212121;
+  border: 1px solid rgba(33, 33, 33, 0);
+  background: rgba(33, 33, 33, 0);
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1329,7 +1338,14 @@ swiper-slide img {
 }
 
 .image-site {
+  border-radius: 10px;
   width: 800px;
+}
+
+.m {
+  font-size: 100px;
+  margin-top: 175px;
+  margin-bottom: 175px;
 }
 
 about-page {
@@ -1337,21 +1353,48 @@ about-page {
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+  font-family: "Roboto", sans-serif;
 }
 
-text-site {
+.about-inf {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-site {
   margin-top: 20px;
   color: white;
+}
+
+.text-site__title {
+  margin-bottom: 20px;
 }
 
 .technologies {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   margin-top: 20px;
-}
-
-.technologies p {
   font-family: "Roboto", sans-serif;
   color: white;
+}
+
+.technologies-icon {
+  display: flex;
+}
+
+.technologies-icon p {
+  padding-left: 10px;
+}
+
+.prev-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.prev-img img {
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 800px;
 }/*# sourceMappingURL=main.css.map */

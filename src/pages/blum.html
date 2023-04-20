@@ -8,16 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <include src="partials\preloader.html"></include> -->
+    <include src="partials\preloader.html"></include>
+    
     <header class="header__cont container">
         <div class="header ">
           <div class="header__logo">
             <a class="header__logo-link" href="../index.html">
               <span class="header__logo-myName"> Kostya Get </span>
-              <!-- <button>
-                <span>Kostya Getalo</span>
-              </button> -->
-            </a>
           </div>
             <nav class="header__nav">
                 <ul class="header__nav-list">
@@ -35,7 +32,6 @@
                         <span></span>
                         <span></span>
                         <span></span> <a href="#project">Projects</a>
-                        
                       </button>
                     </li>
                     <li>
@@ -52,16 +48,23 @@
         </div>
       </header>
     <section class="about-project container">
+      <div class="slider-card ">
+        <p>BLUM</p>
+      </div>
         <about-page >
           <img class="image-site" src="../img/blum.jpg" alt="">
+        <!-- <div class="about-inf"> -->
           <div class="technologies">
-            <p>swiper.js</p>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>JS</p>
+            <p class="text-site__title">technologies</p>
+            <div class="technologies-icon">
+              <p>swiper.js</p>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>JS</p>
+            </div>  
           </div>
-          <text-site>
-            <p>
+          <div class="text-site">
+            <p class="text-site__title">
               ABOUT
             </p>
             <p>
@@ -69,8 +72,16 @@
               The task was to write a simple website to attract customers
               [HTML, CSS, JS]
             </p>
-          </text>
-        </about>
+          </div>
+        <!-- </div> -->
+        </about-page>
+        <div class="prev-img">
+          <img src="../img/blum/b1.jpg" alt="">
+          <img src="../img/blum/b2.jpg" alt="">
+          <img src="../img/blum/b3.jpg" alt="">
+          <img src="../img/blum/b4.jpg" alt="">
+        </div>
     </section>
+    <script src="../js/preloader.js"></script>
 </body>
 </html>

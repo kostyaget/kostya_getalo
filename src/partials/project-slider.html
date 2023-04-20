@@ -1,5 +1,5 @@
 <section id="project" class="section-swiper ">
-  <swiper-container class="mySwiper" initialSlide="1" speed="1500"  effect="coverflow" grab-cursor="true" centered-slides="true"
+  <swiper-container class="swiper-container"  initialSlide="1" speed="1500"  effect="coverflow"  centered-slides="true"
   slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="200"
   coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
     <swiper-slide class="swiper-slide">
@@ -36,25 +36,13 @@
         </div>
       </a>
     </swiper-slide>
+    <swiper-slide>
+      <a class="slide-link" href="./pages/filmoteka.html">
+        <div class="slider-card reader">
+          <img src="./img/film.jpg" />
+          <p>Filmoteka</p>
+        </div>
+      </a>
+    </swiper-slide>
   </swiper-container>
-  <script>
-    const swiper = new Swiper('.mySwiper', {
-      // initialSlide: 2,
-      initialSlide:1,
-      speed:1500,
-      effect:coverflow,
-      grabCursor:true,
-      centeredSlides:true,
-      slidesPerView:auto, 
-      coverflowEffectRotate:50,
-      coverflowEffectStretch:0,
-      coverflowEffectDepth:200,
-      coverflowEffectModifier:1,
-      coverflowEffectSlideShadows:false,
-      mouseWheel: {
-        sensitivity:1,
-        eventsTarget: '.mySwiper'
-    }
-    });
-  </script>
 </section>
