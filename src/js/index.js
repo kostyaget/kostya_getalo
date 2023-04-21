@@ -26,3 +26,13 @@ for (let anchor of anchors) {
   })
 }
 
+// const header = document.querySelector('header');
+// const nav = document.querySelector('header__nav');
+
+// nav.addEventListener('mouseleave', () => {
+//   header.classList.add('hide');
+// });
+
+// nav.addEventListener('mouseenter', () => {
+//   header.classList.remove('hide');
+// });

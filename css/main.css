@@ -1120,9 +1120,13 @@ button:active span:nth-child(1) span:nth-child(2) span:nth-child(2) span:nth-chi
   }
 }
 .header__cont {
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
   display: flex;
   align-items: center;
-  height: 60px;
 }
 
 .header {
