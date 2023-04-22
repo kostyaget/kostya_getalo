@@ -1195,7 +1195,7 @@ button:active span:nth-child(1) span:nth-child(2) span:nth-child(2) span:nth-chi
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin-top: 320px;
+  margin-top: 40vh;
   margin-left: 109px;
 }
 
@@ -1348,9 +1348,20 @@ swiper-slide img {
   width: 700px;
 }
 
+.about-project {
+  margin-top: 100px;
+}
+
 .image-site {
   border-radius: 10px;
   width: 800px;
+}
+
+.W {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .m {
@@ -1365,37 +1376,51 @@ about-page {
   flex-direction: column;
   margin-top: 50px;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .about-inf {
-  align-items: flex-start;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
 }
 
 .text-site {
-  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
   color: white;
 }
 
 .text-site__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
 .technologies {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 70px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
   color: white;
 }
 
 .technologies-icon {
+  font-family: "Montserrat", sans-serif;
   display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
 }
 
 .technologies-icon p {
-  padding-left: 10px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
 }
 
 .prev-img {
