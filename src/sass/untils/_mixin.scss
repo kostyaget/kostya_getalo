@@ -1,0 +1,26 @@
+// @mixin mq($width, $type: min) {
+//     @if map_has_key($breakpoints, $width) {
+//         $width: map_get($breakpoints, $width);
+
+//         @if $type==max {
+//             $width: $width - 1px;
+//         }
+
+//         @media screen and (#{$type}-width: $width) {
+//             @content;
+//         }
+//     }
+// }
+
+// @mixin mq-tablet-only {
+//     @media screen and (min-width: $tablet) and (max-width: $befor-desktop) {
+//         @content;
+//     }
+// }
+
+// Карта точек перелома для mq (media query)
+    $breakpoints: (
+        "phone": 480px,
+        // "tablet": 768px,
+        // "desktop": 1280px,
+    );
